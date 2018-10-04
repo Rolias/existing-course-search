@@ -1,0 +1,13 @@
+{
+  "name": "existing-course-search",
+  "version": "1.0.0",
+  "description": "Pull data from both the library and the SF course in progress export",
+  "main": "Code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
+  },
+  "keywords": [],
+  "author": "Tod Gentille",
+  "license": "ISC"
+}
