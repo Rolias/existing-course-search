@@ -1,3 +1,6 @@
+// @ts-check
+
+
 var ImportData = (function () {
   'use strict';
   const SRC_AUG_CATALOG_ID = "1U5Pv_Bljnl1hCn9yJetn8adnXmzi8JQe_RAPdoLcxOY";
@@ -24,7 +27,7 @@ var ImportData = (function () {
   }
 
   function getPipelineSheet() {
-    const ss = SpreadsheetApp.openById(SRC_PIPELINE_ID)
+    const ss = SpreadsheetApp.openById(SRC_PIPELINE_ID);
     return ss.getSheetByName(SRC_PIPELINE_SHEET_NAME);
   }
 
