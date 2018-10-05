@@ -1,6 +1,5 @@
 // @ts-check
 
-
 var ImportData = (function () {
   'use strict';
   const SRC_AUG_CATALOG_ID = "1U5Pv_Bljnl1hCn9yJetn8adnXmzi8JQe_RAPdoLcxOY";
@@ -13,6 +12,7 @@ var ImportData = (function () {
 
 
   function getAugmentedCatalogSheet() {
+
     const ss = SpreadsheetApp.openById(SRC_AUG_CATALOG_ID);
     return ss.getSheetByName(SRC_CATALOG_SHEET_NAME);
   }

@@ -7,5 +7,4 @@ Course On Hold
 75% of Modules Approved
 Course Delivered
 Topic Approved
-Topic Review 
-
+Topic Review

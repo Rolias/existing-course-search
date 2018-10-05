@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Tod Gentille",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/google-apps-script": "0.0.29"
+  }
 }
